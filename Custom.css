@@ -1,5 +1,5 @@
 /*Nord Palette*/
-html:root {
+/* html:root {
     --slate-palette: "Nordic";
     --toolbar-background-alt:#2e3440;
     --toolbar-background:#353c4a;
@@ -43,4 +43,36 @@ html.theme-light body .force-theme.theme-light {
     --base-border:#bec8da;
     --background-modifier-hover:#d2d9e5;
     --background-modifier-active:#cbd3e1;
+} */
+
+
+
+
+/* Dracula palette */
+html:root {
+  --slate-palette: "Dracula";
+  --toolbar-background-alt:#191a21;
+  --toolbar-background:#282a36;
+  --toolbar-background-hover:#343746;
+  --toolbar-background-active:#282a36;
+  --toolbar-search-background:#22222c;
+  --toolbar-border:#191a21;
+  --toolbar-text-muted:#6272a4;
+  --toolbar-text-normal:#bfc5d9;
+  --accent:138, 62, 244;
+}
+
+html.theme-dark,
+html.theme-dark body #app-mount .theme-light .root-1gCeng,
+html.theme-dark body .force-theme.theme-light {
+  --background-alt:var(--background-light);
+  --background-light:#282a36;
+  --background-dark:#191a21;
+  --background:#22222c;
+  --base-border:#1b1c24;
+  --text-normal:#bfc5d9;
+  --text-muted:#6272a4;
+  --guilds-background:#343746;
+  --background-modifier-hover:#282a36;
+  --background-modifier-active:#343746;
 }
