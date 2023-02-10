@@ -24,9 +24,9 @@
   --link-colour: 48, 144, 255;
 
   /* Server List */
-  --server-icon-size: 35px;
-  --server-icon-spacing: 8px;
-  --server-container-padding: 10px;
+  --server-icon-size: 40px;
+  --server-icon-spacing: 10px;
+  --server-container-padding: 12px;
 }
 
 /*
